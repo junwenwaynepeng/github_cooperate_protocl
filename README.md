@@ -19,7 +19,6 @@
 * 如果客戶有不同種類的app，那命名規則採用"應用程式名_版本號"(e.g. app1_v3, app2_v1, ...)作為命名規則
 
 ## 工作流程
-
 1. 在自己的branch, e.g. develop-Wayne, 先做開發。
 2. develop-Wayne穩定後，可以pull and push到 develop-unstable，並且在那邊做測試直到確認可以完整複製在 develop-username開發的結果。
   * 當某人在develop-unstable做開發的時候，其他人只可以做pull，但是不能push
@@ -27,5 +26,10 @@
 
 ## Git筆記
 ###第一次使用
+####步驟大綱：
+0. 下載必要套件 
+1. 設定git
+2. 產生SSH key
+3. 用SSH key
 ###連線到專案
 ###連線到專案分支
